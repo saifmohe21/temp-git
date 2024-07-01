@@ -1,0 +1,12 @@
+
+const name = require('./4-names')
+const SayHi = require('./5-Utils')
+const data = require('./6-alternative-flavor')
+const sum = require('./7-mind-grenade')
+console.log(sum)
+console.log(name)
+console.log(data.items)
+SayHi('susan')
+SayHi(name.john)
+SayHi(name.peter)
+SayHi(name.secret)
